@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header class="flex items-center justify-center mt-16 z-50">
+        <div class="dropdown dropdown-hover">
+            <label tabindex="0" class="btn m-1 rounded-lg">Filter by Region</label>
+            <ul tabindex="0" class="dropdown-content menu p-2  bg-base-100 rounded-box w-52 shadow-xl">
+                <button id="africa" class=" text-left rounded-md font-medium p-2 hover:bg-slate-400"> Africa</button>
+                <button id="america" class=" text-left rounded-md font-medium p-2 hover:bg-slate-400"> America</button>
+                <button id="asia" class=" text-left rounded-md font-medium p-2 hover:bg-slate-400"> Asia</button>
+                <button id="europe" class=" text-left rounded-md font-medium p-2 hover:bg-slate-400"> Europe</button>
+                <button id="oceania" class=" text-left rounded-md font-medium p-2 hover:bg-slate-400"> Oceania</button>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div id="country-container" class=" mt-24 grid gap-6 md:grid-cols-2 lg:grid-cols-3 ml-7">
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+
+
+
+
+
+
+<script src="utilities.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</html>
